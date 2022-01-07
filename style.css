@@ -1,0 +1,135 @@
+#search{
+    float: left;
+    width: 90%;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+.aramadiv{
+    width: 40%;
+    border: 1px ridge rgb(207, 207, 207);
+    border-radius: 30px;
+    margin: auto;
+    padding: 5px;
+}
+
+.arama-img1{
+    width: 17px; 
+    float: left; 
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 4px;
+}
+
+.sign-in{
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding:7px 15px;
+    border-radius: 2px;
+}
+
+.menu-btn{
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    top: 7px;
+}
+
+.menu-btn-img:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.menu-btn-img{
+    width: 25px; 
+    background-color: white; 
+    opacity: 0.5;
+}
+
+.birdiv-a{
+    color: rgba(0,0,0,0.87);
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 5px;
+    padding-top: 3px;
+}
+
+.birdiv-a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.orta-btn{
+
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: #f2f2f2;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.orta-btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border: rgb(56, 54, 54);
+    border-color: tomato;
+}
+
+.footer-a{
+    color: #5f6368;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.footer-a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-a:active{
+    color:rgb(201, 68, 68);
+}
